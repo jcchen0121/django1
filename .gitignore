@@ -109,3 +109,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# https://tutorial.djangogirls.org/en/deploy/
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
